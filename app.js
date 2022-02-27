@@ -1,8 +1,8 @@
-const a = 10;
-const b = 5;
-const myName = "seungmin";
+const player ={
+    name: 'Guri',
+    hello: function(yourName){
+        console.log("hello " + yourName + " my name is "+ this.name);
+    },
+};
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b);
-console.log("hello" + myName);
+player.hello("Ado");
