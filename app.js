@@ -6,3 +6,4 @@ const player ={
 };
 
 player.hello("Ado");
+player.hello("ADU");
