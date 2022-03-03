@@ -1,10 +1,3 @@
-const player ={
-    name: 'Guri',
-    hello: function(yourName){
-        console.log("hello " + yourName + " my name is "+ this.name);
-    },
-};
+const age = parseInt(prompt("how old are you?"));
 
-let guri =2;
-
-player.hello("Ado");
+console.log(isNaN(age));
