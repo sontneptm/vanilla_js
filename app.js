@@ -5,6 +5,6 @@ const player ={
     },
 };
 
-let guri =1;
+let guri =2;
 
 player.hello("Ado");
