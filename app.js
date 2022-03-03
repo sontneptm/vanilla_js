@@ -1,4 +1,10 @@
-let age = prompt("how old are u?");
-age = parseInt(age);
+const player ={
+    name: 'Guri',
+    hello: function(yourName){
+        console.log("hello " + yourName + " my name is "+ this.name);
+    },
+};
 
-console.log(typeof age);
+let guri =1;
+
+player.hello("Ado");
